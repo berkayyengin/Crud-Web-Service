@@ -61,12 +61,12 @@ The web service will have 4 methods to implement basic CRUD functionality for em
    The following endpoints are available for interacting with the employee data:  
    You can use the endpoints through the Postman App.  
 
-| HTTP Method  | Endpoint              | Description                   |
-| :---         |         :---:         | :---                          |
-| GET          | /employees/{id}	      | Get a specific employee by ID |
-| POST         | /employees            | Create a new employee         |
-| PUT          | /employees/{id}       | Update an existing employee   |
-| DELETE       | /employees/{id}       | Delete an existing employee   |
+| HTTP Method     | Endpoint              | Description                    |
+| :---            |         :---:         | :---                           |
+| GET             | /employees/{id}	      | Get a specific employee by ID  |
+| POST            | /employees            | Create a new employee          |
+| PUT             | /employees/{id}       | Update an existing employee    |
+| DELETE          | /employees/{id}       | Delete an existing employee    |
 
 
 ## Conclusion
