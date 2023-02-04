@@ -15,13 +15,13 @@ This is a simple web service application built with Spring Boot that implements 
 
 ## Getting Started
 
-⋅⋅⋅Download ZIP File  
-⋅⋅⋅You can go to the directory where the project was downloaded and import it inside the Eclipse IDE  
-⋅⋅⋅Build the project using Maven  
-⋅⋅⋅Run the application with CrudwebsrvApplication in Eclipse IDE Run Button (You can find the code files in the file named "com")  
-⋅⋅⋅Go to Postman application to check CRUD operations  
-⋅⋅⋅The application will be accessible at http://localhost:9436/  
-⋅⋅⋅Use PostgreSQL to display the results of CRUD operations in tables. Necessary information is written in the application.properties section of the project.  
+* Download ZIP File  
+* You can go to the directory where the project was downloaded and import it inside the Eclipse IDE  
+* Build the project using Maven  
+* Run the application with CrudwebsrvApplication in Eclipse IDE Run Button (You can find the code files in the file named "com")  
+* Go to Postman application to check CRUD operations  
+* The application will be accessible at http://localhost:9436/  
+* Use PostgreSQL to display the results of CRUD operations in tables. Necessary information is written in the application.properties section of the project.  
 
 Or  
 
