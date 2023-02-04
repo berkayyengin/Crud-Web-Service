@@ -39,22 +39,22 @@ Or
 
 In this Web Service, employees implement basic CRUD operations. It is a simple web service application built with Spring Boot.  
 The web service will have 4 methods to implement basic CRUD functionality for employee records:  
-> ### POST  addEmployee  
-   Retrieves the byte content of the spreadsheet  
-   It parses and adds each row as a new record to the database  
-   Returns OK with list of records added  
-> ### POST updateEmployee  
-   Retrieves a JSON object representing a record in the database  
-   Updates the record in the database whose id matches the id in the JSON object  
-   Returns OK  
-> ### POST deleteEmployee  
-   Takes an id as an integer  
-   Deletes record with ID from database  
-   Returns OK  
-> ### GET getEmployee  
-   Gets and gets the id as an integer  
-   Fetch record from database with ID  
-   Returns OK with JSON representation of record  
+> #### POST  addEmployee  
+   Retrieves the byte content of the spreadsheet.  
+   It parses and adds each row as a new record to the database.  
+   Returns OK with list of records added.    
+> #### POST updateEmployee  
+   Retrieves a JSON object representing a record in the database.    
+   Updates the record in the database whose id matches the id in the JSON object.    
+   Returns OK.  
+> #### POST deleteEmployee  
+   Takes an id as an integer.    
+   Deletes record with ID from database.    
+   Returns OK.  
+> #### GET getEmployee  
+   Gets and gets the id as an integer.  
+   Fetch record from database with ID.    
+   Returns OK with JSON representation of record.    
 
 ## Endpoints  
 
@@ -63,7 +63,7 @@ The web service will have 4 methods to implement basic CRUD functionality for em
 
 | HTTP Method  | Endpoint              | Description                   |
 | :---         |         :---:         | :---                          |
-| GET          | /employees/{id}	     | Get a specific employee by ID |
+| GET          | /employees/{id}	      | Get a specific employee by ID |
 | POST         | /employees            | Create a new employee         |
 | PUT          | /employees/{id}       | Update an existing employee   |
 | DELETE       | /employees/{id}       | Delete an existing employee   |
