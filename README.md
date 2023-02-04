@@ -60,6 +60,7 @@ The web service will have 4 methods to implement basic CRUD functionality for em
 
    The following endpoints are available for interacting with the employee data:  
    You can use the endpoints through the Postman App.  
+   The application will be accessible at http://localhost:9436/employees in Postman
 
 | HTTP Method     | Endpoint              | Description                    |
 | :---            |         :---:         | :---                           |
