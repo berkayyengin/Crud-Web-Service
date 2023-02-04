@@ -25,45 +25,45 @@ This is a simple web service application built with Spring Boot that implements 
 
 Or  
 
-⋅⋅⋅ Clone the repository to your local machine:  
+   Clone the repository to your local machine:  
 * RUN: git clone https://github.com/berkayyengin/Crud-Web-Service.git  
 
-⋅⋅⋅ Navigate to the project directory:  
-RUN in terminal :  cd crudwebsrv  
-⋅⋅⋅Build the project using Maven:  
+   Navigate to the project directory:  
+* RUN in terminal :  cd crudwebsrv  
+   Build the project using Maven:  
 * RUN in terminal :  mvn clean install  
-⋅⋅⋅Run the application:  
+   Run the application:  
 * RUN in terminal : mvn spring-boot:run  
-⋅⋅⋅The application will be accessible at http://localhost:9436/  
+   The application will be accessible at http://localhost:9436/  
 
 ## Description
 
 In this Web Service, employees implement basic CRUD operations. It is a simple web service application built with Spring Boot.  
 The web service will have 4 methods to implement basic CRUD functionality for employee records:  
 ### POST  addEmployee  
-⋅⋅⋅Retrieves the byte content of the spreadsheet  
-⋅⋅⋅It parses and adds each row as a new record to the database  
-⋅⋅⋅Returns OK with list of records added  
+   Retrieves the byte content of the spreadsheet  
+   It parses and adds each row as a new record to the database  
+   Returns OK with list of records added  
  
 ### POST updateEmployee  
-⋅⋅⋅Retrieves a JSON object representing a record in the database  
-⋅⋅⋅Updates the record in the database whose id matches the id in the JSON object  
-⋅⋅⋅Returns OK  
+   Retrieves a JSON object representing a record in the database  
+   Updates the record in the database whose id matches the id in the JSON object  
+   Returns OK  
  
 ### POST deleteEmployee  
-⋅⋅⋅Takes an id as an integer  
-⋅⋅⋅Deletes record with ID from database  
-⋅⋅⋅Returns OK  
+   Takes an id as an integer  
+   Deletes record with ID from database  
+   Returns OK  
  
 ### GET getEmployee  
-⋅⋅⋅Gets and gets the id as an integer  
-⋅⋅⋅Fetch record from database with ID  
-⋅⋅⋅Returns OK with JSON representation of record  
+   Gets and gets the id as an integer  
+   Fetch record from database with ID  
+   Returns OK with JSON representation of record  
 
 ## Endpoints  
 
-⋅⋅⋅The following endpoints are available for interacting with the employee data:  
-⋅⋅⋅You can use the endpoints through the Postman App.  
+   The following endpoints are available for interacting with the employee data:  
+   You can use the endpoints through the Postman App.  
 
 | HTTP Method  | Endpoint              | Description                   |
 | :---         |         :---:         | :---                          |
@@ -74,5 +74,5 @@ The web service will have 4 methods to implement basic CRUD functionality for em
 
 
 ## Conclusion
-⋅⋅⋅ This simple CRUD web service with Spring Boot provides a basic implementation of creating, reading, updating, and deleting employee data.   
-⋅⋅⋅ You can use it as a starting point for building more complex applications.  
+   This simple CRUD web service with Spring Boot provides a basic implementation of creating, reading, updating, and deleting employee data.   
+   You can use it as a starting point for building more complex applications.  
