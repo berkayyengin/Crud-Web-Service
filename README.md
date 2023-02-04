@@ -25,10 +25,10 @@ This is a simple web service application built with Spring Boot that implements 
 
 Or
 
-⋅⋅⋅Clone the repository to your local machine:
+⋅⋅⋅ Clone the repository to your local machine:
 RUN: git clone https://github.com/berkayyengin/Crud-Web-Service.git
 
-⋅⋅⋅Navigate to the project directory:
+⋅⋅⋅ Navigate to the project directory:
 RUN in terminal :  cd crudwebsrv
 ⋅⋅⋅Build the project using Maven:
 * RUN in terminal :  mvn clean install
@@ -74,5 +74,5 @@ The web service will have 4 methods to implement basic CRUD functionality for em
 
 
 ## Conclusion
-⋅⋅⋅This simple CRUD web service with Spring Boot provides a basic implementation of creating, reading, updating, and deleting employee data. 
-⋅⋅⋅You can use it as a starting point for building more complex applications.
+⋅⋅⋅ This simple CRUD web service with Spring Boot provides a basic implementation of creating, reading, updating, and deleting employee data. 
+⋅⋅⋅ You can use it as a starting point for building more complex applications.
