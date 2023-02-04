@@ -25,15 +25,15 @@ This is a simple web service application built with Spring Boot that implements 
 
 Or  
 
-  *Clone the repository to your local machine:  
-RUN: git clone https://github.com/berkayyengin/Crud-Web-Service.git  
-  *Navigate to the project directory:  
-* RUN in terminal :  cd crudwebsrv  
-  *Build the project using Maven:  
-* RUN in terminal :  mvn clean install  
-  *Run the application:  
-* RUN in terminal : mvn spring-boot:run  
-  *The application will be accessible at http://localhost:9436/  
+* Clone the repository to your local machine:  
+> RUN: git clone https://github.com/berkayyengin/Crud-Web-Service.git  
+* Navigate to the project directory:  
+> RUN in terminal :  cd crudwebsrv  
+* Build the project using Maven:  
+> RUN in terminal :  mvn clean install  
+* Run the application:  
+> RUN in terminal : mvn spring-boot:run  
+* The application will be accessible at http://localhost:9436/  
 
 ## Description
 
